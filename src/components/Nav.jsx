@@ -24,8 +24,8 @@ const Nav = () => {
   useEffect(() => {
     if (user) {
       localStorage.setItem('userDataLost', JSON.stringify(user));
-      console.log(user);
-      console.log('hereNav');
+      // console.log(user);
+      // console.log('hereNav');
     }
   }, [user]);
 
