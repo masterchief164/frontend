@@ -12,7 +12,7 @@ const GoogleSignIn = (state) => {
     prompt: 'consent',
     scope: 'openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile',
   };
-  const qs = new URLSearchParams(options);
+  const qs = new URLSearchParams(options); 
   return (`${loginUrl}?${qs.toString()}`);
 };
 
